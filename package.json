@@ -1,29 +1,16 @@
 {
-  "name": "json-schema-suite",
-  "version": "0.0.3",
+  "name": "ericgj-json-schema-suite",
   "description": "JSON Schema components bundled",
+  "version": "0.0.3",
+  "keywords": [],
   "main": "index.js",
-  "directories": {
-    "test": "test"
-  },
-  "scripts": {
-    "test": "echo '*** make sure you run node test/server.js first ***' && mocha --ui bdd test/tests.js"
-  },
   "dependencies": {
-    "json-schema-core-component": "https://github.com/ericgj/json-schema-core/tarball/master",
-    "json-schema-hyper-component": "https://github.com/ericgj/json-schema-hyper/tarball/master",
-    "json-schema-valid-component": "https://github.com/ericgj/json-schema-valid/tarball/master",
-    "json-schema-agent-component": "https://github.com/ericgj/json-schema-agent/tarball/master",
-    "superagent": "https://github.com/visionmedia/superagent/tarball/master",
-    "is-browser": "https://github.com/forbeslindesay/is-browser/tarball/master"
+    "ericgj-json-schema-core": "git://github.com/npmcomponent/ericgj-json-schema-core.git",
+    "ericgj-json-schema-hyper": "git://github.com/npmcomponent/ericgj-json-schema-hyper.git",
+    "ericgj-json-schema-valid": "git://github.com/npmcomponent/ericgj-json-schema-valid.git",
+    "ericgj-json-schema-agent": "git://github.com/npmcomponent/ericgj-json-schema-agent.git",
+    "visionmedia-superagent": "git://github.com/npmcomponent/visionmedia-superagent.git",
+    "forbeslindesay-is-browser": "git://github.com/npmcomponent/forbeslindesay-is-browser.git"
   },
-  "devDependencies": {
-    "mocha": "*"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ericgj/json-schema-suite.git"
-  },
-  "author": "Eric Gjertsen",
   "license": "MIT"
 }
